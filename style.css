@@ -1,106 +1,106 @@
-@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Mono&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
 h1 {
-   margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 * {
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
-   font-family: "Red Hat Mono";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Red Hat Mono';
 }
 
 ul {
-   list-style-type: none;
+  list-style-type: none;
 }
 
 label {
-   cursor: pointer;
-   width: 16px;
-   height: 16px;
-   display: block;
-   position: relative;
+  cursor: pointer;
+  width: 16px;
+  height: 16px;
+  display: block;
+  position: relative;
 }
 
 li {
-   height: 35px;
-   cursor: default;
-   margin-top: 4px;
-   font-size: 14px;
-   display: flex;
-   background: #a4ccdb;
-   padding: 8px;
-   border-radius: 5px;
-   position: relative;
+  height: 35px;
+  cursor: default;
+  margin-top: 4px;
+  font-size: 14px;
+  display: flex;
+  background: #a4ccdb;
+  padding: 8px;
+  border-radius: 5px;
+  position: relative;
 }
 
 html {
-   height: 100%;
-   width: 100%;
-   background: linear-gradient(
-      to top,
-      rgb(30, 175, 107) 0%,
-      rgb(41, 120, 185) 100%
-   );
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(
+    to top,
+    rgb(30, 175, 107) 0%,
+    rgb(41, 120, 185) 100%
+  );
 }
 
 .inputField input {
-   outline: none;
-   width: 246px;
-   height: 33px;
-   border: 1px solid rgb(131, 53, 221);
-   border-radius: 4px;
-   padding-left: 8px;
-   margin-bottom: 10px;
-   z-index: 1;
+  outline: none;
+  width: 246px;
+  height: 33px;
+  border: 1px solid rgb(131, 53, 221);
+  border-radius: 4px;
+  padding-left: 8px;
+  margin-bottom: 10px;
+  z-index: 1;
 }
 
-.todoList input[type="checkbox"] {
-   margin-top: 2px;
-   margin-right: 3px;
+.todoList input[type='checkbox'] {
+  margin-top: 2px;
+  margin-right: 3px;
 }
 
-.todoList input[type="checkbox"]:checked + span[id="text"] {
-   text-decoration: line-through;
+.todoList input[type='checkbox']:checked + span[id='text'] {
+  text-decoration: line-through;
 }
 
-.todoList li span[class="del"] {
-   position: absolute;
-   right: 0px;
-   color: #fff;
-   width: 24px;
-   height: 30px;
-   background: url(img/cross.png) no-repeat;
-   cursor: pointer;
+.todoList li span[class='del'] {
+  position: absolute;
+  right: 0px;
+  color: #fff;
+  width: 24px;
+  height: 30px;
+  background: url(img/cross.png) no-repeat;
+  cursor: pointer;
 }
 
 .inputField button {
-   position: absolute;
-   margin-left: 213px;
-   width: 33px;
-   height: 33px;
-   border: 2px solid rgb(131, 53, 221);
-   border-radius: 4px;
-   background: rgb(131, 53, 221);
-   font-size: 23px;
-   color: white;
-   opacity: 0.7;
-   transition: all 0.2s;
-   pointer-events: none;
-   z-index: 2;
+  position: absolute;
+  margin-left: 213px;
+  width: 33px;
+  height: 33px;
+  border: 2px solid rgb(131, 53, 221);
+  border-radius: 4px;
+  background: rgb(131, 53, 221);
+  font-size: 23px;
+  color: white;
+  opacity: 0.7;
+  transition: all 0.2s;
+  pointer-events: none;
+  z-index: 2;
 }
 
 .inputField button.active {
-   cursor: pointer;
-   opacity: 2;
-   pointer-events: all;
+  cursor: pointer;
+  opacity: 2;
+  pointer-events: all;
 }
 
 .main {
-   margin: 120px auto;
-   max-width: 310px;
-   width: 100%;
-   background: #add9e7;
-   border-radius: 2%;
-   padding: 30px;
+  margin: 120px auto;
+  max-width: 310px;
+  width: 100%;
+  background: #add9e7;
+  border-radius: 2%;
+  padding: 30px;
 }
